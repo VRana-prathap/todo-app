@@ -30,16 +30,6 @@ A modern, feature-rich Todo application with **dark/light mode**, **task priorit
 
 ---
 
-## 📁 Project Structure
-todo-app/
-├── index.html        # Main HTML structure
-├── style.css         # All styles (light/dark themes included)
-├── script.js         # App logic & interactivity
-└── README.md         # This file
-
-
----
-
 ## 🎨 UI Highlights
 
 - **Sky Blue Theme** (light mode) with smooth dark mode toggle
