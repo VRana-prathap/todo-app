@@ -2,7 +2,10 @@
 
 A modern, feature-rich Todo application with **dark/light mode**, **task priorities**, **due dates**, **progress tracking**, and more — all built with vanilla HTML, CSS, and JavaScript. No frameworks required!
 
-Preview this website: https://vrana-prathap.github.io/todo-app/
+## 🚀 Live Demo
+
+> **[View Live Demo]( https://vrana-prathap.github.io/todo-app/)**
+
 
 ---
 
