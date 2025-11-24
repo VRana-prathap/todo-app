@@ -79,20 +79,10 @@ All tasks are saved in your browser’s `localStorage`. Your data will persist e
 
 ---
 
-## 📦 Future Improvements (Ideas)
-
-- [ ] Task search/filter
-- [ ] Export/Import tasks (JSON)
-- [ ] Keyboard shortcuts
-- [ ] PWA support (installable app)
-- [ ] Cloud sync (via Firebase/API)
-
----
-
 ## 📄 License
 
 This project is open-source and free to use under the **MIT License**.
 
 ---
 
-> 💬 **Made with ❤️** — A clean, practical tool to boost your productivity!
+>  **Made with ❤️** — A clean, practical tool to boost your productivity!
