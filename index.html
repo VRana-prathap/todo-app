@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="header-top">
+          <h1>
+            <i class="fas fa-check-circle"></i>
+            TO-DO
+          </h1>
+          <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+        <p id="date"></p>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+          <span id="progress-percent">0%</span>
+        </div>
+      </header>
+
+      <div class="todo-input">
+        <input type="text" id="task-input" placeholder="What do you need to do?" />
+        <div class="meta-inputs">
+          <select id="priority-input">
+            <option value="low">Low</option>
+            <option value="medium" selected>Medium</option>
+            <option value="high">High</option>
+          </select>
+          <input type="date" id="due-date-input" />
+        </div>
+        <button id="add-task">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <div class="filters">
+        <span class="filter active" data-filter="all"> All </span>
+        <span class="filter" data-filter="active"> Active </span>
+        <span class="filter" data-filter="completed"> Completed </span>
+      </div>
+
+      <div class="todos-container">
+        <ul id="todos-list"></ul>
+        <div class="empty-state hidden">
+          <i class="fas fa-clipboard-list"></i>
+          <p>No tasks here yet</p>
+        </div>
+      </div>
+
+      <footer>
+        <p id="items-left">0 items left</p>
+        <div class="footer-buttons">
+          <button id="clear-completed">Clear Completed</button>
+          <button id="delete-all" class="delete-all-btn">Delete All</button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
