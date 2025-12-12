@@ -1,51 +1,51 @@
-# 🌟Todo App
+# Todo App
 
 A modern, feature-rich Todo application with **dark/light mode**, **task priorities**, **due dates**, **progress tracking**, and more — all built with vanilla HTML, CSS, and JavaScript. No frameworks required!
 
-## 🚀 Live Demo
+## Live Demo
 
 > **[View Live Demo]( https://vrana-prathap.github.io/todo-app/)**
 
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ **Light & Dark Mode** (auto-saves preference)
-- 📊 **Progress Bar** with visible completion percentage
-- 🎯 **Task Priorities**: Low (🟢), Medium (🟡), High (🔴)
-- 📅 **Optional Due Dates** with overdue/today indicators
-- 🗑️ **Delete All** and **Clear Completed** actions
-- 🧹 **Filter Tasks**: All / Active / Completed
-- 💾 **Persistent Storage** using `localStorage`
-- 🎨 **Custom Strikethrough**: Green for completed
-- 📱 **Fully Responsive** design
+- **Light & Dark Mode** (auto-saves preference)
+- **Progress Bar** with visible completion percentage
+- **Task Priorities**: Low (🟢), Medium (🟡), High (🔴)
+- **Optional Due Dates** with overdue/today indicators
+- **Delete All** and **Clear Completed** actions
+- **Filter Tasks**: All / Active / Completed
+- **Persistent Storage** using `localStorage`
+- **Custom Strikethrough**: Green for completed
+- **Fully Responsive** design
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone or download** this project
 2. Open the folder in your file explorer
 3. Double-click `index.html` to launch in your browser
 
-> 💡 **No build step needed!** This is a static app that runs directly in the browser.
+> **No build step needed!** This is a static app that runs directly in the browser.
 
 ---
 
-## 🎨 UI Highlights
+## UI Highlights
 
 - **Sky Blue Theme** (light mode) with smooth dark mode toggle
 - **Priority-colored dropdown** for easy task categorization
 - **Animated progress bar** showing real-time completion %
 - **Visual due date badges**:  
-  - 🔴 Overdue = Red  
-  - 🟠 Today = Orange  
-  - 🟢 Future = Green
+  - Overdue = Red  
+  - Today = Orange  
+  - Future = Green
 
 ---
 
-## 🛠️ How to Use
+## How to Use
 
 1. Type your task in the input field
 2. (Optional) Select priority and due date
@@ -55,24 +55,24 @@ A modern, feature-rich Todo application with **dark/light mode**, **task priorit
 
 ---
 
-## 💾 Data Persistence
+## Data Persistence
 
 All tasks are saved in your browser’s `localStorage`. Your data will persist even after closing the tab!
 
-> ⚠️ **Note**: Clearing browser data will delete your tasks.
+> **Note**: Clearing browser data will delete your tasks.
 
 ---
 
-## 🧪 Browser Support
+## Browser Support
 
-- Chrome ✅
-- Firefox ✅
-- Edge ✅
-- Safari ✅ (minor styling differences in `<select>` options)
+- Chrome 
+- Firefox
+- Edge 
+- Safari  (minor styling differences in `<select>` options)
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use under the **MIT License**.
 
